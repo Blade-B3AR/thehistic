@@ -4,8 +4,10 @@ body{
 	color: #dedede;
 }
 a {
+  text-decoration: none;
+}
+a:link {
 	color: #ffa552
-
 }
 #header {
 	width: 100%;
@@ -31,4 +33,10 @@ a {
 	box-sizing: border-box;
 	margin: 0 !important;
 	padding: 0 !important;
+}
+a:visited {
+  color: #ffa552
+}
+a:hover {
+  color:#ed7e18;
 }
